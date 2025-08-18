@@ -9,6 +9,7 @@ public class TeamRepository {
 		Team team = new Team();
 		team.setId(101);
 		team.setTeamName("Chennai Super Kings");
+		team.setShortName("CSK");
 		team.setCaptainName("Ruturaj Gaikwad");
 		team.setCoachName("Stephen Fleming");
 		team.setOwnerName("N. Srinivasan");
@@ -23,6 +24,7 @@ public class TeamRepository {
 		Team team = new Team();
 		team.setId(102);
 		team.setTeamName("Mumbai Indians");
+		team.setShortName("MI");
 		team.setCaptainName("Hardik Pandya");
 		team.setCoachName("Mahela Jayawardene");
 		team.setOwnerName("Reliance Industries");
@@ -37,6 +39,7 @@ public class TeamRepository {
 		Team team = new Team();
 		team.setId(103);
 		team.setTeamName("Gujarat Titans");
+		team.setShortName("GT");
 		team.setCaptainName("Shubman Gill");
 		team.setCoachName("Ashish Nehra");
 		team.setOwnerName("CVC Capitals");
@@ -51,6 +54,7 @@ public class TeamRepository {
 		Team team = new Team();
 		team.setId(104);
 		team.setTeamName("Lucknow Super Giants");
+		team.setShortName("LSG");
 		team.setCaptainName("Rishabh Pant");
 		team.setCoachName("Justin Langer");
 		team.setOwnerName(" Sanjiv Goenka ");
@@ -65,6 +69,7 @@ public class TeamRepository {
 		Team team = new Team();
 		team.setId(105);
 		team.setTeamName("Punjab Kings");
+		team.setShortName("PBSK");
 		team.setCaptainName("Shreyas Iyer");
 		team.setCoachName("Ricky Ponting");
 		team.setOwnerName("Preity Zinta");
@@ -79,6 +84,7 @@ public class TeamRepository {
 		Team team = new Team();
 		team.setId(106);
 		team.setTeamName("Sunrisers Hyderabad");
+		team.setShortName("SRH");
 		team.setCaptainName("Pat Cummins");
 		team.setCoachName("Daniel Vettori");
 		team.setOwnerName("Kalanidhi Maran");
@@ -93,6 +99,7 @@ public class TeamRepository {
 		Team team = new Team();
 		team.setId(107);
 		team.setTeamName("Kolkata Knight Riders");
+		team.setShortName("KKR");
 		team.setCaptainName("Ajinkya Rahane");
 		team.setCoachName("Mahela Jayawardene");
 		team.setOwnerName("Shahrukh Khan ");
@@ -107,6 +114,7 @@ public class TeamRepository {
 		Team team = new Team();
 		team.setId(108);
 		team.setTeamName("Royal Challengers Bengaluru");
+		team.setShortName("RCB");
 		team.setCaptainName("Rajat Patidar");
 		team.setCoachName("Andy Flower");
 		team.setOwnerName("Diageo through United Spirits Limited");
@@ -121,6 +129,7 @@ public class TeamRepository {
 		Team team = new Team();
 		team.setId(109);
 		team.setTeamName("Rajasthan Royals");
+		team.setShortName("RR");
 		team.setCaptainName("Sanju Samson");
 		team.setCoachName("Rahul Dravid");
 		team.setOwnerName("Manoj Badale");
@@ -131,10 +140,11 @@ public class TeamRepository {
 	}
 
 	// should returns DD team Details.
-	public static Team getDDTeamDetails() {
+	public static Team getDCTeamDetails() {
 		Team team = new Team();
 		team.setId(110);
 		team.setTeamName("Delhi Capitals");
+		team.setShortName("DC");
 		team.setCaptainName("Axar Patel");
 		team.setCoachName("Hemang Badani");
 		team.setOwnerName("GMR Sports Pvt Ltd, JSW Sports");

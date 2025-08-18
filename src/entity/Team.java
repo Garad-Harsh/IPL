@@ -9,8 +9,26 @@ public class Team {
 	private String ownerName;
 	private float nRR;
 	private boolean isQualified;
+	private String shortName;
 
 	// Setter and Getter.
+
+	public String getShortName() {
+		return shortName;
+	}
+
+	public void setShortName(String shortName) {
+		this.shortName = shortName;
+	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "Team [id=" + id + ", teamName=" + teamName + ", captainName=" + captainName + ", coachName=" + coachName
+				+ ", ownerName=" + ownerName + ", nRR=" + nRR + ", isQualified=" + isQualified + ", shortName="
+				+ shortName + "]";
+	}
 
 	public int getId() {
 		return id;
